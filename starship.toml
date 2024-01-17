@@ -31,9 +31,11 @@ format = '\([$state( $progress_current/$progress_total)]($style)\)'
 style = "bright-yellow"
 
 [git_status]
+disabled = false
 format = '[[(*$conflicted$untracked$modified$staged$renamed$deleted)](red)($ahead_behind)]($style)\] '
 style = "red"
 ignore_submodules = true
+untracked = ""
 
 [cmd_duration]
 format = "[$duration]($style) "
