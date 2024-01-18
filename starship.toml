@@ -23,7 +23,7 @@ error_symbol = "[#](red)"
 vimcmd_symbol = "[❮](purple)"
 
 [git_branch]
-format = '\[[ $branch]($style)'
+format = '[ $branch]($style)'
 style = "purple"
 
 [git_state]
@@ -32,7 +32,7 @@ style = "bright-yellow"
 
 [git_status]
 disabled = false
-format = '[[(*$conflicted$untracked$modified$staged$renamed$deleted)](red)($ahead_behind)]($style)\] '
+format = '[[(*$conflicted$untracked$modified$staged$renamed$deleted)](red)($ahead_behind)]($style) '
 style = "red"
 ignore_submodules = true
 untracked = ""
